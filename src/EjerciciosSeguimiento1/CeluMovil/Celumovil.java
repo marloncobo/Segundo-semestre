@@ -8,18 +8,18 @@ public class Celumovil {
     public int cantidad;
 
     public int verificar (){
-        switch (operador){
-            case "Tigo":
+        switch (operador.toLowerCase()){
+            case "tigo":
                 cargofijo = 45000;
                 minutos = 200;
                 paquetes = 12000;
                 break;
-            case "Claro":
+            case "claro":
                 cargofijo = 30000;
                 minutos = 100;
                 paquetes = 18000;
                 break;
-            case "Movistar":
+            case "movistar":
                 cargofijo = 40000;
                 minutos = 250;
                 paquetes = 8000;

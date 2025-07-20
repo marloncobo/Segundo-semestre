@@ -9,7 +9,7 @@ public class Maincelumovil {
         System.out.println("Ingrese el operador movil");
         celumovil.operador = sc.next();
         System.out.println("Ingrese los minutos consumidos");
-        celumovil.minutos = Integer.parseInt(sc.next());
+        celumovil.cantidad = Integer.parseInt(sc.next());
         System.out.println("¿Quieres paquetes de datos? (s/n)");
         String verificar = sc.next();
         switch (verificar){
